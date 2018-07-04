@@ -1,7 +1,7 @@
 module.exports =
 __NEXT_REGISTER_PAGE('/post', function() {
           var comp =
-      webpackJsonp([6],{
+      webpackJsonp([5],{
 
 /***/ "./components/Header.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1097,7 +1097,7 @@ var Page = function Page(props) {
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/post.js");
@@ -1105,7 +1105,7 @@ module.exports = __webpack_require__("./pages/post.js");
 
 /***/ })
 
-},[5])
+},[4])
           return { page: comp.default }
         })
       ;
