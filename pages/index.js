@@ -1,23 +1,16 @@
-import Layout from '../components/MyLayout'
-import Link from 'next/link'
+import Layout from "../components/MyLayout";
 
-const PostLink = (props) => (
-  <li>
-    <Link as={`/p/${props.id}`} href={`/post?title=${props.title}`}>
-      <a>{props.title}</a>
-    </Link>
-  </li>
-)
-
-const Index = () => (
+export default () => (
   <Layout>
-    <h1>My cool blog</h1>
-    <ul>
-      <PostLink id="hello" title="Hello N.js"/>
-      <PostLink id="learning" title="Learning Hello N.js"/>
-      <PostLink id="number" title="Number 3"/>
-    </ul>
+    <h1>Digital Excellence</h1>
+    <p>
+      Cross-platform, native, and mobile Web. Design, development, and branding.
+    </p>
+    <p>
+      We are a software team that strives to bring world class design priciples
+      and development to businesses everywhere. We have a wealth of experience
+      designing solutions for business optimizations, productivity and
+      efficiency improvemnts, and application/website development.
+    </p>
   </Layout>
-)
-
-export default Index
+);
