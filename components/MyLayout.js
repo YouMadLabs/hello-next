@@ -31,7 +31,8 @@ const Layout = props => (
       ul {
         margin: 0 0 0 0;
       }
-    `}</style>
+    `}
+    </style>
   </div>
 );
 
